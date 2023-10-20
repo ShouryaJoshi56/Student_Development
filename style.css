@@ -1,0 +1,147 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background-color: #0078d4;
+    color: #fff;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 28px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    background-color: #fff; /* Container background color */
+    border: 1px solid #ddd;
+}
+
+.student-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 300px;
+    position: relative;
+}
+
+.student-card h2 {
+    margin: 10px 0;
+}
+
+.golden:hover {
+    background-color: gold;
+}
+
+.silver:hover {
+    background-color: silver;
+}
+
+.bronze:hover {
+    background-color: #cd7f32;
+}
+
+.icons {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+    background-size: cover;
+    display: inline-block;
+}
+
+.icon.check {
+    background-image: url('cm.png');
+}
+
+.icon.cross {
+    background-image: url('cross.png');
+}
+
+/* Additional styles for the terminated section */
+.terminated-section {
+    background-color: #dc3545; /* Danger color (red) */
+    color: #fff; /* Text color is white */
+    padding: 20px;
+    border: 1px solid #dc3545; /* Border color matches the background color */
+    margin-top: 20px;
+    text-align: center;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.terminated-section .student-card {
+    background-color: #ff6b71; /* Light red background color for student cards */
+    border: 1px solid #dc3545; /* Border color matches the danger color */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 300px;
+    margin: 10px;
+    flex: 0 0 auto; /* Prevent cards from growing */
+    filter: grayscale(0%); /* Remove the grayscale effect */
+    transition: background-color 0.3s;
+}
+
+.terminated-section h2 {
+    font-size: 24px;
+    color: #fff; /* Text color is white */
+}
+
+/* Background color for the container */
+.container {
+    background-color: #E0F2E9; /* Light green background color for the container */
+    border: 1px solid #A9DFBF; /* Light green border color */
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Background color for the header */
+header {
+    background-color: #0078D4; /* Blue background color for the header */
+    color: #fff; /* Text color is white */
+    padding: 20px;
+}
+
+/* Text color for the header */
+header h1 {
+    font-size: 28px;
+    color: #fff; /* Text color is white */
+}
+
+/* Background color for the header */
+header {
+    background-color: #3498db; /* Use a shade of blue for the header background */
+    color: #fff; /* Text color is white */
+    padding: 20px;
+}
+
+/* Text color for the header */
+header h1 {
+    font-size: 28px;
+}
